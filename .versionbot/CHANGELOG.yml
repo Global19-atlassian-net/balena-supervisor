@@ -1,4 +1,19 @@
 - commits:
+    - subject: Support app uuids and types coming from the target state
+      hash: 94d3dfd99d2fa8dba774233768c135170f978dce
+      body: |
+        We store the uuid on the individual docker components so that when
+        building a current state, we can match them with the target state.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Cameron Diver <cameron@balena.io>
+        signed-off-by: Cameron Diver <cameron@balena.io>
+      author: Cameron Diver
+      nested: []
+  version: 12.4.0
+  date: 2021-02-12T22:33:36.924Z
+- commits:
     - subject: Fix gpu label support
       hash: f009d3a3e99aa174b03b09eca39f9f6b773f0230
       body: >
